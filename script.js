@@ -35,15 +35,15 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Computer Engineer", "Developer", "Designer", "Freelancer"],
+        strings: ["Backend Developer", "Designer","Network Engineer", "Software Quality Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Computer Engineer", "Developer", "Designer", "Freelancer"],
-        typeSpeed: 100,
+        strings: [ "From Saharanpur U.P.", "currently living in Ghaziabad U.P.", "currently working in Bharat Electronics Limited Ghaziabad U.P."],
+        typeSpeed: 50,
         backSpeed: 60,
         loop: true
     });

@@ -269,35 +269,35 @@ section .title::after{
 .projects .title::after,
 .badges .title::after{
     background: #111;
-    content: "what i provide";
+    content: "what i done";
 }
-.projects .serv-content .card{
+.projects .serv-content .card1{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
-    padding: 50px 25px;
+    border-radius: 5px;
+    padding: 20px 20px 15px 20px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.projects .serv-content .card:hover{
+.projects .serv-content .card1:hover{
     background: crimson;
 }
-.projects .serv-content .card .box{
+.projects .serv-content .card1 .box{
     transition: all 0.3s ease;
 }
-.projects .serv-content .card:hover .box{
+.projects .serv-content .card1:hover .box{
     transform: scale(1.05);
 }
-.projects .serv-content .card i{
+.projects .serv-content .card1 i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.projects .serv-content .card:hover i{
+.projects .serv-content .card1:hover i{
     color: #fff;
 }
-.projects .serv-content .card .text{
+.projects .serv-content .card1 .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -362,25 +362,25 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
+.skills-content .right .wordpress::before{
     width: 80%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 65%;
+}
+.skills-content .right .java::before{
+    width: 45%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
 }
+.skills-content .right .linux::before{
+    width: 75%;
+}
 
 /* badges section styling */
 .badges .title::after{
-    content: "who with me";
+    content: "what i earn";
 }
 .badges .carousel .card{
     background: #222;
@@ -412,8 +412,6 @@ section .title::after{
     height: 150px;
     width: 150px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid crimson;
     transition: all 0.3s ease;
 }
 .badges .carousel .card:hover img{
@@ -688,4 +686,11 @@ footer span a:hover{
     border-left-width: 5px;
     border-right-width: 5px;
     border-bottom-width: 5px;
+}
+.ceritficateLink > a{
+	cursor: pointer;
+    color: cyan;
+}
+.card {
+	height:350px;
 }
